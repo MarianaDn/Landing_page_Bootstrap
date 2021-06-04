@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'LibreFranklin';
+    src: url('../fonts/LibreFranklin-Black.ttf');
+}
+@font-face {
+    font-family: 'LibreFranklin_light';
+    src: url('../fonts/LibreFranklin-Light.ttf');
+}
+body{
+    font-size: 1.5rem;
+}
+h1 {
+    font-size: 3.5rem;
+}
+h2{
+    font-size: 2.5rem;
+}
+
+header{
+    background-image: url("../images/bg.png");
+    background-size: cover;
+   
+}
+.color-overlay{
+    background:  rgba(139, 65, 54, 0.4);
+}
+
+.menu{
+    padding-top: 6%;
+}
+#navbarTogglerDemo03{
+    margin-left: 40%;
+}
+#navbarTogglerDemo03 > ul > li{
+    padding: 0 25px;
+}
+a.nav-link{
+    font-family: 'LibreFranklin_light';
+    font-size: 18px;
+}
+a.navbar-brand, a.nav-link.active.firstHome{
+    font-family: 'LibreFranklin';
+}
+
+header section.container{
+    font-family: 'LibreFranklin_light';
+    margin-top: 20%;
+    color: #FFFAF2;
+    padding-bottom: 20%;
+}
+
+header section.container p{
+    margin-bottom: 106px;
+}
+header section.container a:not([href]):not([class]){
+    text-decoration: underline;
+}
+
+.sectionAbout, .sectionSkills, .sectionPortfolio{
+    padding: 93px 0;
+    color: #333;
+}
+.sectionAbout h1, .sectionSkills h1{
+    margin-bottom: 76px;
+    font-weight: bold;
+}
+.sectionSkills p{
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.skills{
+    background-color: #FFFAF2;
+}
+.sectionSkills{
+    padding-bottom: 145px;
+}
+
+.progress{
+    background-color: #F5D6AB;
+    margin-bottom: 20px;
+}
+.progress-bar{
+    background-color: #C66C49;
+}
+
+.sectionSkills h5{
+    margin-bottom: 20px;
+}
+.sectionSkills h5:first-child{
+    margin-bottom: 65px;
+    margin-top: 5px;
+}
+.sectionSkills p:first-child{
+    margin-bottom: 70px;
+    margin-top: 5px;
+}
+
+.thirdSectionH2{
+    margin-bottom: 33px;
+}
+.sectionPortfolio img{
+    margin: 15px;
+}
+.sectionPortfolio .text{
+    margin-top: 25px;
+}
+
+
+@media screen and  (max-width: 1200px){
+    #navbarTogglerDemo03 {
+        margin-left: 30%;
+    }
+    #navbarTogglerDemo03 > ul > li:last-child {
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 1144px){
+    #navbarTogglerDemo03 {
+        margin-left: 25%;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    #navbarTogglerDemo03 {
+        margin-left: 9%;
+    }
+    #navbarTogglerDemo03 > ul > li {
+        padding: 0;
+    }
+}
